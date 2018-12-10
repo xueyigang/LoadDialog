@@ -1,4 +1,9 @@
-com.xyg:loadDialog:1.0
+allprojects {
+    repositories {
+        maven { url "https://raw.githubusercontent.com/xueyigang/LoadDialog/master" }
+    }
+}
+com.xyg:LoadDialog:1.0
 
 
 public class LoadDialog {
